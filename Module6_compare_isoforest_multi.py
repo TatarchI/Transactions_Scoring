@@ -170,4 +170,17 @@ This treasury transaction scoring pipeline demonstrates:
     • Reduces investigation workload by prioritizing high-risk transactions.
     • Provides explainable risk drivers via Multi-Criteria contribution analysis.
     • Supports audits, compliance, and fraud detection initiatives transparently.
+    
+🔹 Why these two models were chosen:
+
+We selected **Isolation Forest and Multi-Criteria Scoring** because they **complement each other.
+Isolation Forest efficiently handles large-scale transactional data without requiring labels, delivers high silhouette 
+scores, and reliably detects outliers that rule-based methods might miss. However, it remains a black-box model, making
+it challenging to explain why a specific transaction was flagged as anomalous. To address interpretability, we added a
+manual Multi-Criteria model using robust normalization and feature weights, providing clear scoring and immediate 
+visibility into which features contributed most to a transaction’s risk. This transparency is crucial for business,
+audit, and explainability to stakeholders. Together, these two models deliver robust and interpretable anomaly scoring, 
+enabling effective segmentation into *Yes, Maybe Yes, No* clusters and allowing the team to focus on the highest-risk 
+transactions while maintaining transparency for compliance and management reporting.
+
 """
