@@ -1,0 +1,169 @@
+C:\Users\KillDeath\PycharmProjects\PythonProject1\.venv1\Scripts\python.exe C:\Users\KillDeath\PycharmProjects\PythonProject1\Transactions_scoring\Module4_tune_isoforest_contamination.py 
+✅ Loading dataset for tuning...
+✅ Data normalized using RobustScaler.
+
+🔍 Total parameter combinations: 72. Starting grid search...
+
+🔄 Progress: 1/72 | n_estimators=50, contamination=0.0175, max_samples=0.8, max_features=1.0
+✅ Metrics: anomaly_ratio=0.0175, avg_score=0.1100, std_score=0.0334, silhouette_score=0.8432
+🔄 Progress: 2/72 | n_estimators=50, contamination=0.0175, max_samples=0.8, max_features=0.8
+✅ Metrics: anomaly_ratio=0.0175, avg_score=0.1107, std_score=0.0338, silhouette_score=0.7251
+🔄 Progress: 3/72 | n_estimators=50, contamination=0.0175, max_samples=0.8, max_features=0.5
+✅ Metrics: anomaly_ratio=0.0175, avg_score=0.1003, std_score=0.0315, silhouette_score=0.8310
+🔄 Progress: 4/72 | n_estimators=50, contamination=0.0175, max_samples=0.5, max_features=1.0
+✅ Metrics: anomaly_ratio=0.0175, avg_score=0.1175, std_score=0.0350, silhouette_score=0.7019
+🔄 Progress: 5/72 | n_estimators=50, contamination=0.0175, max_samples=0.5, max_features=0.8
+✅ Metrics: anomaly_ratio=0.0175, avg_score=0.1149, std_score=0.0347, silhouette_score=0.7283
+🔄 Progress: 6/72 | n_estimators=50, contamination=0.0175, max_samples=0.5, max_features=0.5
+✅ Metrics: anomaly_ratio=0.0175, avg_score=0.1035, std_score=0.0313, silhouette_score=0.7340
+🔄 Progress: 7/72 | n_estimators=50, contamination=0.02, max_samples=0.8, max_features=1.0
+✅ Metrics: anomaly_ratio=0.0200, avg_score=0.1051, std_score=0.0334, silhouette_score=0.8317
+🔄 Progress: 8/72 | n_estimators=50, contamination=0.02, max_samples=0.8, max_features=0.8
+✅ Metrics: anomaly_ratio=0.0200, avg_score=0.1051, std_score=0.0338, silhouette_score=0.7222
+🔄 Progress: 9/72 | n_estimators=50, contamination=0.02, max_samples=0.8, max_features=0.5
+✅ Metrics: anomaly_ratio=0.0200, avg_score=0.0960, std_score=0.0315, silhouette_score=0.8201
+🔄 Progress: 10/72 | n_estimators=50, contamination=0.02, max_samples=0.5, max_features=1.0
+✅ Metrics: anomaly_ratio=0.0200, avg_score=0.1122, std_score=0.0350, silhouette_score=0.8196
+🔄 Progress: 11/72 | n_estimators=50, contamination=0.02, max_samples=0.5, max_features=0.8
+✅ Metrics: anomaly_ratio=0.0200, avg_score=0.1089, std_score=0.0347, silhouette_score=0.7390
+🔄 Progress: 12/72 | n_estimators=50, contamination=0.02, max_samples=0.5, max_features=0.5
+✅ Metrics: anomaly_ratio=0.0200, avg_score=0.0994, std_score=0.0313, silhouette_score=0.7212
+🔄 Progress: 13/72 | n_estimators=50, contamination=0.0225, max_samples=0.8, max_features=1.0
+✅ Metrics: anomaly_ratio=0.0225, avg_score=0.1007, std_score=0.0334, silhouette_score=0.8369
+🔄 Progress: 14/72 | n_estimators=50, contamination=0.0225, max_samples=0.8, max_features=0.8
+✅ Metrics: anomaly_ratio=0.0225, avg_score=0.1004, std_score=0.0338, silhouette_score=0.7309
+🔄 Progress: 15/72 | n_estimators=50, contamination=0.0225, max_samples=0.8, max_features=0.5
+✅ Metrics: anomaly_ratio=0.0225, avg_score=0.0925, std_score=0.0315, silhouette_score=0.8163
+🔄 Progress: 16/72 | n_estimators=50, contamination=0.0225, max_samples=0.5, max_features=1.0
+✅ Metrics: anomaly_ratio=0.0225, avg_score=0.1065, std_score=0.0350, silhouette_score=0.8369
+🔄 Progress: 17/72 | n_estimators=50, contamination=0.0225, max_samples=0.5, max_features=0.8
+✅ Metrics: anomaly_ratio=0.0225, avg_score=0.1028, std_score=0.0347, silhouette_score=0.8231
+🔄 Progress: 18/72 | n_estimators=50, contamination=0.0225, max_samples=0.5, max_features=0.5
+✅ Metrics: anomaly_ratio=0.0225, avg_score=0.0956, std_score=0.0313, silhouette_score=0.8116
+🔄 Progress: 19/72 | n_estimators=50, contamination=0.025, max_samples=0.8, max_features=1.0
+✅ Metrics: anomaly_ratio=0.0250, avg_score=0.0963, std_score=0.0334, silhouette_score=0.8251
+🔄 Progress: 20/72 | n_estimators=50, contamination=0.025, max_samples=0.8, max_features=0.8
+✅ Metrics: anomaly_ratio=0.0250, avg_score=0.0957, std_score=0.0338, silhouette_score=0.7512
+🔄 Progress: 21/72 | n_estimators=50, contamination=0.025, max_samples=0.8, max_features=0.5
+✅ Metrics: anomaly_ratio=0.0250, avg_score=0.0895, std_score=0.0315, silhouette_score=0.8076
+🔄 Progress: 22/72 | n_estimators=50, contamination=0.025, max_samples=0.5, max_features=1.0
+✅ Metrics: anomaly_ratio=0.0250, avg_score=0.1020, std_score=0.0350, silhouette_score=0.8337
+🔄 Progress: 23/72 | n_estimators=50, contamination=0.025, max_samples=0.5, max_features=0.8
+✅ Metrics: anomaly_ratio=0.0250, avg_score=0.0979, std_score=0.0347, silhouette_score=0.8164
+🔄 Progress: 24/72 | n_estimators=50, contamination=0.025, max_samples=0.5, max_features=0.5
+✅ Metrics: anomaly_ratio=0.0250, avg_score=0.0921, std_score=0.0313, silhouette_score=0.8065
+🔄 Progress: 25/72 | n_estimators=100, contamination=0.0175, max_samples=0.8, max_features=1.0
+✅ Metrics: anomaly_ratio=0.0175, avg_score=0.1114, std_score=0.0343, silhouette_score=0.7518
+🔄 Progress: 26/72 | n_estimators=100, contamination=0.0175, max_samples=0.8, max_features=0.8
+✅ Metrics: anomaly_ratio=0.0175, avg_score=0.1106, std_score=0.0341, silhouette_score=0.7361
+🔄 Progress: 27/72 | n_estimators=100, contamination=0.0175, max_samples=0.8, max_features=0.5
+✅ Metrics: anomaly_ratio=0.0175, avg_score=0.1005, std_score=0.0311, silhouette_score=0.7293
+🔄 Progress: 28/72 | n_estimators=100, contamination=0.0175, max_samples=0.5, max_features=1.0
+✅ Metrics: anomaly_ratio=0.0175, avg_score=0.1161, std_score=0.0346, silhouette_score=0.8379
+🔄 Progress: 29/72 | n_estimators=100, contamination=0.0175, max_samples=0.5, max_features=0.8
+✅ Metrics: anomaly_ratio=0.0175, avg_score=0.1139, std_score=0.0339, silhouette_score=0.7299
+🔄 Progress: 30/72 | n_estimators=100, contamination=0.0175, max_samples=0.5, max_features=0.5
+✅ Metrics: anomaly_ratio=0.0175, avg_score=0.1032, std_score=0.0311, silhouette_score=0.7041
+🔄 Progress: 31/72 | n_estimators=100, contamination=0.02, max_samples=0.8, max_features=1.0
+✅ Metrics: anomaly_ratio=0.0200, avg_score=0.1061, std_score=0.0343, silhouette_score=0.7345
+🔄 Progress: 32/72 | n_estimators=100, contamination=0.02, max_samples=0.8, max_features=0.8
+✅ Metrics: anomaly_ratio=0.0200, avg_score=0.1050, std_score=0.0341, silhouette_score=0.7316
+🔄 Progress: 33/72 | n_estimators=100, contamination=0.02, max_samples=0.8, max_features=0.5
+✅ Metrics: anomaly_ratio=0.0200, avg_score=0.0961, std_score=0.0311, silhouette_score=0.7151
+🔄 Progress: 34/72 | n_estimators=100, contamination=0.02, max_samples=0.5, max_features=1.0
+✅ Metrics: anomaly_ratio=0.0200, avg_score=0.1105, std_score=0.0346, silhouette_score=0.8447
+🔄 Progress: 35/72 | n_estimators=100, contamination=0.02, max_samples=0.5, max_features=0.8
+✅ Metrics: anomaly_ratio=0.0200, avg_score=0.1077, std_score=0.0339, silhouette_score=0.7326
+🔄 Progress: 36/72 | n_estimators=100, contamination=0.02, max_samples=0.5, max_features=0.5
+✅ Metrics: anomaly_ratio=0.0200, avg_score=0.0981, std_score=0.0311, silhouette_score=0.7195
+🔄 Progress: 37/72 | n_estimators=100, contamination=0.0225, max_samples=0.8, max_features=1.0
+✅ Metrics: anomaly_ratio=0.0225, avg_score=0.1015, std_score=0.0343, silhouette_score=0.7631
+🔄 Progress: 38/72 | n_estimators=100, contamination=0.0225, max_samples=0.8, max_features=0.8
+✅ Metrics: anomaly_ratio=0.0225, avg_score=0.1006, std_score=0.0341, silhouette_score=0.8366
+🔄 Progress: 39/72 | n_estimators=100, contamination=0.0225, max_samples=0.8, max_features=0.5
+✅ Metrics: anomaly_ratio=0.0225, avg_score=0.0925, std_score=0.0311, silhouette_score=0.8117
+🔄 Progress: 40/72 | n_estimators=100, contamination=0.0225, max_samples=0.5, max_features=1.0
+✅ Metrics: anomaly_ratio=0.0225, avg_score=0.1056, std_score=0.0346, silhouette_score=0.8386
+🔄 Progress: 41/72 | n_estimators=100, contamination=0.0225, max_samples=0.5, max_features=0.8
+✅ Metrics: anomaly_ratio=0.0225, avg_score=0.1022, std_score=0.0339, silhouette_score=0.7292
+🔄 Progress: 42/72 | n_estimators=100, contamination=0.0225, max_samples=0.5, max_features=0.5
+✅ Metrics: anomaly_ratio=0.0225, avg_score=0.0934, std_score=0.0311, silhouette_score=0.7159
+🔄 Progress: 43/72 | n_estimators=100, contamination=0.025, max_samples=0.8, max_features=1.0
+✅ Metrics: anomaly_ratio=0.0250, avg_score=0.0980, std_score=0.0343, silhouette_score=0.7490
+🔄 Progress: 44/72 | n_estimators=100, contamination=0.025, max_samples=0.8, max_features=0.8
+✅ Metrics: anomaly_ratio=0.0250, avg_score=0.0965, std_score=0.0341, silhouette_score=0.8249
+🔄 Progress: 45/72 | n_estimators=100, contamination=0.025, max_samples=0.8, max_features=0.5
+✅ Metrics: anomaly_ratio=0.0250, avg_score=0.0884, std_score=0.0311, silhouette_score=0.8110
+🔄 Progress: 46/72 | n_estimators=100, contamination=0.025, max_samples=0.5, max_features=1.0
+✅ Metrics: anomaly_ratio=0.0250, avg_score=0.1009, std_score=0.0346, silhouette_score=0.8299
+🔄 Progress: 47/72 | n_estimators=100, contamination=0.025, max_samples=0.5, max_features=0.8
+✅ Metrics: anomaly_ratio=0.0250, avg_score=0.0971, std_score=0.0339, silhouette_score=0.8287
+🔄 Progress: 48/72 | n_estimators=100, contamination=0.025, max_samples=0.5, max_features=0.5
+✅ Metrics: anomaly_ratio=0.0250, avg_score=0.0897, std_score=0.0311, silhouette_score=0.7061
+🔄 Progress: 49/72 | n_estimators=150, contamination=0.0175, max_samples=0.8, max_features=1.0
+✅ Metrics: anomaly_ratio=0.0175, avg_score=0.1108, std_score=0.0340, silhouette_score=0.7481
+🔄 Progress: 50/72 | n_estimators=150, contamination=0.0175, max_samples=0.8, max_features=0.8
+✅ Metrics: anomaly_ratio=0.0175, avg_score=0.1103, std_score=0.0339, silhouette_score=0.7378
+🔄 Progress: 51/72 | n_estimators=150, contamination=0.0175, max_samples=0.8, max_features=0.5
+✅ Metrics: anomaly_ratio=0.0175, avg_score=0.1040, std_score=0.0319, silhouette_score=0.7309
+🔄 Progress: 52/72 | n_estimators=150, contamination=0.0175, max_samples=0.5, max_features=1.0
+✅ Metrics: anomaly_ratio=0.0175, avg_score=0.1152, std_score=0.0343, silhouette_score=0.7793
+🔄 Progress: 53/72 | n_estimators=150, contamination=0.0175, max_samples=0.5, max_features=0.8
+✅ Metrics: anomaly_ratio=0.0175, avg_score=0.1143, std_score=0.0341, silhouette_score=0.7335
+🔄 Progress: 54/72 | n_estimators=150, contamination=0.0175, max_samples=0.5, max_features=0.5
+✅ Metrics: anomaly_ratio=0.0175, avg_score=0.1053, std_score=0.0317, silhouette_score=0.7180
+🔄 Progress: 55/72 | n_estimators=150, contamination=0.02, max_samples=0.8, max_features=1.0
+✅ Metrics: anomaly_ratio=0.0200, avg_score=0.1061, std_score=0.0340, silhouette_score=0.7333
+🔄 Progress: 56/72 | n_estimators=150, contamination=0.02, max_samples=0.8, max_features=0.8
+✅ Metrics: anomaly_ratio=0.0200, avg_score=0.1049, std_score=0.0339, silhouette_score=0.7233
+🔄 Progress: 57/72 | n_estimators=150, contamination=0.02, max_samples=0.8, max_features=0.5
+✅ Metrics: anomaly_ratio=0.0200, avg_score=0.0998, std_score=0.0319, silhouette_score=0.7132
+🔄 Progress: 58/72 | n_estimators=150, contamination=0.02, max_samples=0.5, max_features=1.0
+✅ Metrics: anomaly_ratio=0.0200, avg_score=0.1096, std_score=0.0343, silhouette_score=0.8468
+🔄 Progress: 59/72 | n_estimators=150, contamination=0.02, max_samples=0.5, max_features=0.8
+✅ Metrics: anomaly_ratio=0.0200, avg_score=0.1081, std_score=0.0341, silhouette_score=0.7293
+🔄 Progress: 60/72 | n_estimators=150, contamination=0.02, max_samples=0.5, max_features=0.5
+✅ Metrics: anomaly_ratio=0.0200, avg_score=0.1009, std_score=0.0317, silhouette_score=0.7123
+🔄 Progress: 61/72 | n_estimators=150, contamination=0.0225, max_samples=0.8, max_features=1.0
+✅ Metrics: anomaly_ratio=0.0225, avg_score=0.1014, std_score=0.0340, silhouette_score=0.7629
+🔄 Progress: 62/72 | n_estimators=150, contamination=0.0225, max_samples=0.8, max_features=0.8
+✅ Metrics: anomaly_ratio=0.0225, avg_score=0.1003, std_score=0.0339, silhouette_score=0.7172
+🔄 Progress: 63/72 | n_estimators=150, contamination=0.0225, max_samples=0.8, max_features=0.5
+✅ Metrics: anomaly_ratio=0.0225, avg_score=0.0957, std_score=0.0319, silhouette_score=0.7057
+🔄 Progress: 64/72 | n_estimators=150, contamination=0.0225, max_samples=0.5, max_features=1.0
+✅ Metrics: anomaly_ratio=0.0225, avg_score=0.1049, std_score=0.0343, silhouette_score=0.8365
+🔄 Progress: 65/72 | n_estimators=150, contamination=0.0225, max_samples=0.5, max_features=0.8
+✅ Metrics: anomaly_ratio=0.0225, avg_score=0.1031, std_score=0.0341, silhouette_score=0.7171
+🔄 Progress: 66/72 | n_estimators=150, contamination=0.0225, max_samples=0.5, max_features=0.5
+✅ Metrics: anomaly_ratio=0.0225, avg_score=0.0962, std_score=0.0317, silhouette_score=0.7138
+🔄 Progress: 67/72 | n_estimators=150, contamination=0.025, max_samples=0.8, max_features=1.0
+✅ Metrics: anomaly_ratio=0.0250, avg_score=0.0976, std_score=0.0340, silhouette_score=0.8224
+🔄 Progress: 68/72 | n_estimators=150, contamination=0.025, max_samples=0.8, max_features=0.8
+✅ Metrics: anomaly_ratio=0.0250, avg_score=0.0962, std_score=0.0339, silhouette_score=0.8248
+🔄 Progress: 69/72 | n_estimators=150, contamination=0.025, max_samples=0.8, max_features=0.5
+✅ Metrics: anomaly_ratio=0.0250, avg_score=0.0914, std_score=0.0319, silhouette_score=0.7003
+🔄 Progress: 70/72 | n_estimators=150, contamination=0.025, max_samples=0.5, max_features=1.0
+✅ Metrics: anomaly_ratio=0.0250, avg_score=0.1002, std_score=0.0343, silhouette_score=0.8276
+🔄 Progress: 71/72 | n_estimators=150, contamination=0.025, max_samples=0.5, max_features=0.8
+✅ Metrics: anomaly_ratio=0.0250, avg_score=0.0980, std_score=0.0341, silhouette_score=0.8292
+🔄 Progress: 72/72 | n_estimators=150, contamination=0.025, max_samples=0.5, max_features=0.5
+✅ Metrics: anomaly_ratio=0.0250, avg_score=0.0912, std_score=0.0317, silhouette_score=0.7058
+
+✅ Tuning completed. Results saved to: check_files/isoforest_tuning/isoforest_tuning_results.xlsx
+
+🔹 Top 10 by silhouette_score:
+    n_estimators  contamination  ...  std_score  silhouette_score
+57           150         0.0200  ...   0.034297          0.846808
+33           100         0.0200  ...   0.034611          0.844731
+0             50         0.0175  ...   0.033427          0.843228
+39           100         0.0225  ...   0.034611          0.838650
+27           100         0.0175  ...   0.034611          0.837853
+15            50         0.0225  ...   0.035033          0.836857
+12            50         0.0225  ...   0.033427          0.836856
+37           100         0.0225  ...   0.034056          0.836629
+63           150         0.0225  ...   0.034297          0.836493
+21            50         0.0250  ...   0.035033          0.833697
+
+[10 rows x 8 columns]
+
+Process finished with exit code 0

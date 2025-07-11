@@ -1,0 +1,91 @@
+C:\Users\KillDeath\PycharmProjects\PythonProject1\.venv1\Scripts\python.exe C:\Users\KillDeath\PycharmProjects\PythonProject1\Transactions_scoring\Module2_advanced_feature_engineering.py 
+✅ Loading dataset: check_files/transactions_dataset_pre_cleaned.csv.gz
+🔹 Shape: (737557, 12)
+🔹 Columns: ['ID', 'SUMPAY', 'EMP', 'REASONID', 'ORGINN', 'FILINPUT', 'EXPENSESUM_TYPE_COUNT', 'PURPOSE_CODE_5DIGIT', 'HAS_DUPLICATE_ID', 'DIFF_OPERDAY_DOCDATE', 'OPERDAY_MONTH', 'OPERDAY_WEEKDAY']
+
+📊 Unique value counts per column:
+EMP: 399
+REASONID: 25
+ORGINN: 9061
+FILINPUT: 223
+EXPENSESUM_TYPE_COUNT: 12
+PURPOSE_CODE_5DIGIT: 18
+HAS_DUPLICATE_ID: 2
+DIFF_OPERDAY_DOCDATE: 71
+OPERDAY_MONTH: 12
+OPERDAY_WEEKDAY: 6
+
+✅ Completed. Ready for advanced feature engineering.
+
+✅ Winsorization applied: upper SUMPAY capped at 751,522,000
+
+🔍 Top 10 rows preview:
+         ID       SUMPAY   SUMPAY_RAW  EMP_transaction_count_month  EMP_avg_SUMPAY_month  EMP_transaction_count_dayweek  EMP_avg_SUMPAY_dayweek  EMP_ORGINN_count_month  EMP_ORGINN_count_dayweek  REASONID_transaction_count_month  REASONID_avg_SUMPAY_month  ORGINN_transaction_count_month  ORGINN_avg_SUMPAY_month  FILINPUT_transaction_count_month  FILINPUT_avg_SUMPAY_month  EXP_TYPE_transaction_count_month  EXP_TYPE_avg_SUMPAY_month  PUPROSE_CODE_transaction_count_month  PUPROSE_CODE_avg_SUMPAY_month  DUPLICATE_COUNT_EMP_month  DUPLICATE_COUNT_ORGINN_month  LATE_COUNT_EMP_month  LATE_COUNT_ORGINN_month
+0  10948759    6989857.0    6989857.0                          187          2.390551e+07                            396            2.327816e+07                      11                        26                              9112               3.092533e+07                              11             7.205742e+06                               187               2.390551e+07                             48147               2.798846e+07                                  6157                   2.331989e+07                        0.0                           0.0                   0.0                      0.0
+1  10950489    6989857.0    6989857.0                          187          2.390551e+07                             32            4.534550e+07                      11                         5                             13018               2.680125e+07                              11             7.205742e+06                               187               2.390551e+07                             48147               2.798846e+07                                  6157                   2.331989e+07                        0.0                           0.0                   0.0                      0.0
+2  10950476    2487258.0    2487258.0                          187          2.390551e+07                             32            4.534550e+07                      11                         5                             13018               2.680125e+07                              11             7.205742e+06                               187               2.390551e+07                             48147               2.798846e+07                                 13097                   3.466024e+07                        0.0                           0.0                   0.0                      0.0
+3  10950479     971519.0     971519.0                          187          2.390551e+07                             32            4.534550e+07                      11                         5                             13018               2.680125e+07                              11             7.205742e+06                               187               2.390551e+07                             48147               2.798846e+07                                 13097                   3.466024e+07                        0.0                           0.0                   0.0                      0.0
+4  10950484       8164.0       8164.0                          187          2.390551e+07                             32            4.534550e+07                      11                         5                             13018               2.680125e+07                              11             7.205742e+06                               187               2.390551e+07                             48147               2.798846e+07                                  6157                   2.331989e+07                        0.0                           0.0                   0.0                      0.0
+5  10950487      99490.0      99490.0                          187          2.390551e+07                             32            4.534550e+07                      11                         5                             13018               2.680125e+07                              11             7.205742e+06                               187               2.390551e+07                             48147               2.798846e+07                                  6157                   2.331989e+07                        0.0                           0.0                   0.0                      0.0
+6  11022198  403691760.0  403691760.0                          205          1.482667e+07                            396            2.327816e+07                      41                       100                             12817               3.396358e+07                              41             2.969709e+07                               205               1.482667e+07                             63094               2.816509e+07                                 13743                   2.712849e+07                        0.0                           0.0                   0.0                      0.0
+7  11025270     173912.0     173912.0                          205          1.482667e+07                            396            2.327816e+07                      41                       100                             15460               3.041370e+07                              41             2.969709e+07                               205               1.482667e+07                             63094               2.816509e+07                                 49892                   2.944246e+07                        0.0                           0.0                   0.0                      0.0
+8  11025892     240000.0     240000.0                          205          1.482667e+07                            396            2.327816e+07                      41                       100                             15460               3.041370e+07                              41             2.969709e+07                               205               1.482667e+07                             63094               2.816509e+07                                 13743                   2.712849e+07                        0.0                           0.0                   0.0                      0.0
+9  11026389    1400000.0    1400000.0                          205          1.482667e+07                            396            2.327816e+07                      41                       100                             15460               3.041370e+07                              41             2.969709e+07                               205               1.482667e+07                             63094               2.816509e+07                                 49892                   2.944246e+07                        0.0                           0.0                   0.0                      0.0
+
+✅ Final shape: (737557, 23)
+
+ℹ️ Data types:
+ID                                        int64
+SUMPAY                                  float64
+SUMPAY_RAW                              float64
+EMP_transaction_count_month               int64
+EMP_avg_SUMPAY_month                    float64
+EMP_transaction_count_dayweek             int64
+EMP_avg_SUMPAY_dayweek                  float64
+EMP_ORGINN_count_month                    int64
+EMP_ORGINN_count_dayweek                  int64
+REASONID_transaction_count_month          int64
+REASONID_avg_SUMPAY_month               float64
+ORGINN_transaction_count_month            int64
+ORGINN_avg_SUMPAY_month                 float64
+FILINPUT_transaction_count_month          int64
+FILINPUT_avg_SUMPAY_month               float64
+EXP_TYPE_transaction_count_month          int64
+EXP_TYPE_avg_SUMPAY_month               float64
+PUPROSE_CODE_transaction_count_month      int64
+PUPROSE_CODE_avg_SUMPAY_month           float64
+DUPLICATE_COUNT_EMP_month               float64
+DUPLICATE_COUNT_ORGINN_month            float64
+LATE_COUNT_EMP_month                    float64
+LATE_COUNT_ORGINN_month                 float64
+dtype: object
+
+📊 Descriptive statistics:
+                                         count             mean                  std          min          25%          50%          75%                     max
+ID                                   737,557.0     13,599,844.0          3,843,028.0 10,940,936.0 11,220,200.0 11,493,474.0 20,023,930.0            20,272,920.0
+SUMPAY                               737,557.0     29,531,026.5         98,490,584.1          0.0    568,644.0  2,250,000.0 11,700,000.0           751,522,000.0
+SUMPAY_RAW                           737,557.0 14,420,605,234.7 11,491,372,337,380.5          0.0    568,644.0  2,250,000.0 11,700,000.0 9,860,082,483,994,512.0
+EMP_transaction_count_month          737,557.0            399.8                344.5          1.0        179.0        285.0        522.0                 3,088.0
+EMP_avg_SUMPAY_month                 737,557.0     29,531,026.5         26,702,422.4     27,112.0 14,339,297.7 22,407,539.9 33,800,882.7           751,522,000.0
+EMP_transaction_count_dayweek        737,557.0            748.7                554.8          1.0        369.0        581.0      1,012.0                 2,881.0
+EMP_avg_SUMPAY_dayweek               737,557.0     29,531,026.5         23,892,114.4      5,000.0 15,559,900.3 22,477,443.4 33,582,219.3           700,000,000.0
+EMP_ORGINN_count_month               737,557.0             43.6                 94.0          1.0          7.0         16.0         44.0                 1,408.0
+EMP_ORGINN_count_dayweek             737,557.0             63.4                 99.3          1.0         10.0         25.0         77.0                   889.0
+REASONID_transaction_count_month     737,557.0          7,438.1              5,302.4         20.0      2,594.0      5,528.0     13,018.0                16,845.0
+REASONID_avg_SUMPAY_month            737,557.0     29,531,026.5          8,369,575.3  1,951,175.4 23,771,192.6 30,170,212.9 34,316,733.8           110,112,369.0
+ORGINN_transaction_count_month       737,557.0             53.2                122.3          1.0          8.0         20.0         52.0                 1,408.0
+ORGINN_avg_SUMPAY_month              737,557.0     29,531,026.5         59,067,627.8          0.0  3,148,836.6  9,562,960.0 28,850,298.6           751,522,000.0
+FILINPUT_transaction_count_month     737,557.0            743.4                859.8          2.0        194.0        330.0      1,054.0                 4,768.0
+FILINPUT_avg_SUMPAY_month            737,557.0     29,531,026.5         20,842,578.1  1,092,930.0 15,485,452.5 24,253,846.7 34,794,828.7           128,910,684.9
+EXP_TYPE_transaction_count_month     737,557.0         61,927.8             12,771.7          1.0     55,416.0     61,551.0     66,406.0                87,385.0
+EXP_TYPE_avg_SUMPAY_month            737,557.0     29,531,026.5          8,899,258.8  3,043,600.0 27,988,459.6 28,416,457.1 29,541,274.5           272,844,488.3
+PUPROSE_CODE_transaction_count_month 737,557.0         41,899.3             18,417.5          1.0     29,620.0     47,912.0     53,768.0                64,117.0
+PUPROSE_CODE_avg_SUMPAY_month        737,557.0     29,531,026.5          8,075,146.7          1.0 28,041,813.5 29,698,092.9 31,976,880.5           239,106,244.3
+DUPLICATE_COUNT_EMP_month            737,557.0              0.6                  2.2          0.0          0.0          0.0          0.0                    21.0
+DUPLICATE_COUNT_ORGINN_month         737,557.0              0.1                  0.6          0.0          0.0          0.0          0.0                    11.0
+LATE_COUNT_EMP_month                 737,557.0              0.1                  0.8          0.0          0.0          0.0          0.0                    37.0
+LATE_COUNT_ORGINN_month              737,557.0              0.0                  0.7          0.0          0.0          0.0          0.0                    50.0
+
+✅ Final dataset successfully saved to check_files/transactions_dataset_final_cleaned.csv.gz
+
+Process finished with exit code 0

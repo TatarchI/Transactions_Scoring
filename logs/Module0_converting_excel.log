@@ -1,0 +1,10 @@
+C:\Users\KillDeath\PycharmProjects\PythonProject1\.venv1\Scripts\python.exe C:\Users\KillDeath\PycharmProjects\PythonProject1\Transactions_scoring\Module0_converting_excel.py 
+✅ Starting Excel → CSV.GZ conversion...
+Loading Excel from: Raw_data/Abror aka effectivenes.xlsx
+Excel loaded! Rows: 738166, Columns: 30
+Removed non-informative columns: ['FINYEAR', 'STATE', 'STATENAME', 'REASONMSG', 'DOCTYPE', 'SYS', 'ACTION', 'SYSNAME', 'DOCTYPENAME']
+Removed auto-generated index column:    
+Saving to: Raw_data/transactions_dataset.csv.gz
+🎉 Conversion completed successfully!
+
+Process finished with exit code 0

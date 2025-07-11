@@ -1,0 +1,15 @@
+C:\Users\KillDeath\PycharmProjects\PythonProject1\.venv1\Scripts\python.exe C:\Users\KillDeath\PycharmProjects\PythonProject1\Transactions_scoring\Module6_compare_isoforest_multi.py 
+✅ Loading IsoForest results...
+✅ Loading Multi-Criteria results...
+
+📊 Overlap and divergence summary:
+🔹 Both detect anomaly: 4925
+🔹 Both detect normal: 713033
+🔹 IsoForest-only anomaly: 9838
+🔹 Multi-Criteria-only anomaly: 9827
+
+✅ Final decision table saved to Final_decision/final_scoring_decision.xlsx
+
+✅ Module completed.
+
+Process finished with exit code 0
